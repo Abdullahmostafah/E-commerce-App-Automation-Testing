@@ -1,7 +1,7 @@
 @smoke
 Feature: F2_Login
 
-  Scenario: User could log in with valid email and password
+  Scenario: SC2- User could log in with valid email and password
 
     Given user had an actual account
     And user goes to home page

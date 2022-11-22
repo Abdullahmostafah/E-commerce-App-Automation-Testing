@@ -1,12 +1,12 @@
 @smoke
-Feature: user could filter with color
-
+Feature: F07_Color
 
   Background: user has account
     Given user had an actual account
     And open home page again
 
-  Scenario: user could filter product with color
+  Scenario: SC7- Logged user could filter with color
+
     When user chooses Category and hover to open sub-Category
 
     And user can filter sub-Category with color

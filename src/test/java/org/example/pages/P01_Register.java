@@ -5,14 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class P01_Register {
-    public WebElement registerlink()
-    {
-        return Hooks.driver.findElement(By.className("ico-register"));
-    }
-
     public static WebElement GettingRegisterLink() {
-        //return driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a"));
-        // both command are getting the same result
         return Hooks.driver.findElement(By.className("ico-register"));
     }
     public static WebElement GettingUserFirstName() {
@@ -23,10 +16,7 @@ public class P01_Register {
     }
     public static WebElement GettingUserEmailAddress() {
         return Hooks.driver.findElement(By.id("Email"));
-        // both command are getting the same result
-        //return driver.findElement(By.cssSelector("input[id=\"Email\"]"));
     }
-
     public static WebElement GettingUserPassword() {
         return Hooks.driver.findElement(By.id("Password"));
     }

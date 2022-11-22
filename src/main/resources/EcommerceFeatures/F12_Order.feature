@@ -1,11 +1,11 @@
 @smoke
-Feature: user could Create Successful Order
+Feature: F12_Order
 
   Background: User goes to homePage and do shopping
     Given open home page again
     And open shopping page
 
-  Scenario: user could Create Successful Order
+  Scenario: SC12- Create successful Order
 
     When user agrees with terms and proceed to Checkout
     And user enters email address

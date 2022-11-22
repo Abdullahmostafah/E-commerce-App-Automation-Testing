@@ -6,7 +6,6 @@ import org.example.stepDefinition.Hooks;
 
 public class P08_Tag {
     public static WebElement SelectedCoolTag() {
-        // Select Cool Tag //
         return Hooks.driver.findElement(By.cssSelector("a[href=\"/cool\"]"));
     }
     public static WebElement SelectedCoolItemPage(){
@@ -19,7 +18,6 @@ public class P08_Tag {
         return  Hooks.driver.findElement(By.cssSelector("h2[class=\"product-title\"] a"));
     }
     public static WebElement SelectedShirtTag() {
-        // Select Shirt Tag //
         return Hooks.driver.findElement(By.cssSelector("a[href=\"/shirt\"]"));
     }
     public static WebElement GetShirtCount(){

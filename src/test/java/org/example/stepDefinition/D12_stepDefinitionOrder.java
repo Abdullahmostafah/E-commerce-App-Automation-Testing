@@ -26,7 +26,6 @@ public class D12_stepDefinitionOrder {
         p12_orderCheckOut.checkoutTermsPOM().click();
         p12_orderCheckOut.checkoutBtnPOM().click();
 
-        //System.out.println("Welcome in Checkout Page!");
     }
     @And("user types Billing address to Create Order")
     public void user_types_Billing_address_to_Create_Order() {
@@ -34,34 +33,27 @@ public class D12_stepDefinitionOrder {
         p12_orderCheckOut.checkoutFNamePOM().click();
         p12_orderCheckOut.checkoutFNamePOM().clear();
         p12_orderCheckOut.checkoutFNamePOM().sendKeys(Hooks.userFirstName);
-        // Enter Last Name //
         p12_orderCheckOut.checkoutLNamePOM().click();
         p12_orderCheckOut.checkoutLNamePOM().clear();
         p12_orderCheckOut.checkoutLNamePOM().sendKeys(Hooks.userLastName);
-        // Write valid Email //
         p12_orderCheckOut.checkoutMailPOM().click();
         p12_orderCheckOut.checkoutMailPOM().clear();
         p12_orderCheckOut.checkoutMailPOM().sendKeys(Hooks.userValidEmail);
         Select country = new Select(p12_orderCheckOut.checkoutCountryPOM());
         country.selectByVisibleText("Egypt"); //Select Country Name using visible text
         Hooks.sleep(5000);
-        // Enter City //
         p12_orderCheckOut.checkoutCityPOM().click();
         p12_orderCheckOut.checkoutCityPOM().clear();
         p12_orderCheckOut.checkoutCityPOM().sendKeys(city);
-        // Write Address_1 //
         p12_orderCheckOut.checkoutAddressPOM().click();
         p12_orderCheckOut.checkoutAddressPOM().clear();
         p12_orderCheckOut.checkoutAddressPOM().sendKeys(address1);
-        // Enter Postal Code //
         p12_orderCheckOut.checkoutPostCodePOM().click();
         p12_orderCheckOut.checkoutPostCodePOM().clear();
         p12_orderCheckOut.checkoutPostCodePOM().sendKeys(postCode);
-        // Write Phone Number //
         p12_orderCheckOut.checkoutPhoneNoPOM().click();
         p12_orderCheckOut.checkoutPhoneNoPOM().clear();
         p12_orderCheckOut.checkoutPhoneNoPOM().sendKeys(phoneNo);
-        // Write Fax Number //
         p12_orderCheckOut.checkoutFaxNoPOM().click();
         p12_orderCheckOut.checkoutFaxNoPOM().clear();
         p12_orderCheckOut.checkoutFaxNoPOM().sendKeys(faxNo);
@@ -73,46 +65,33 @@ public class D12_stepDefinitionOrder {
     }
     @And("user chooses Shipping Method to Continue")
     public void user_chooses_Shipping_Method_to_Continue() {
-        // Select Shipping Method and Continue //
-        // Select Shipping Method (Next Day Air ($0.00)) //
         p12_orderCheckOut.checkoutShipMethSelPOM().click();
-        // Press CONTINUE //
         p12_orderCheckOut.checkoutShipMethSaveBtnPOM().click();
         Hooks.sleep(3000);
     }
     @And("user chooses Payment Method to Continue")
     public void user_chooses_Payment_Method_to_Continue() {
-        // Select Payment Method (Pay by Credit Card)) //
         p12_orderCheckOut.checkoutPayMethSelPOM().click();
-        // Press CONTINUE //
         p12_orderCheckOut.checkoutPayMethSaveBtnPOM().click();
         Hooks.sleep(3000);
     }
     @And("user fills out Payment Information")
     public void user_fills_out_Payment_Information() {
-        // Select Credit Card Type //
         Select card = new Select(p12_orderCheckOut.checkoutCardTypePOM());
         card.selectByValue("MasterCard"); //Select Credit Card Type from Value
-        // Write Cardholder Name //
         p12_orderCheckOut.checkoutCardHolderNamePOM().click();
         p12_orderCheckOut.checkoutCardHolderNamePOM().clear();
         p12_orderCheckOut.checkoutCardHolderNamePOM().sendKeys(cardHolderName);
-        // Enter Card Number //
         p12_orderCheckOut.checkoutCardNoPOM().click();
         p12_orderCheckOut.checkoutCardNoPOM().clear();
         p12_orderCheckOut.checkoutCardNoPOM().sendKeys(cardNumber);
-        // Select Card Expiration Month //
         Select month = new Select(p12_orderCheckOut.checkoutCardExpMonthPOM());
-        month.selectByValue("8"); //Select Card Expiration Month from Value
-
-        // Select Card Expiration Year //
+        month.selectByValue("8");
         Select year = new Select(p12_orderCheckOut.checkoutCardExpYearPOM());
         year.selectByValue("2023"); //Select Card Expiration Year from Value
-        // Write Card Code //
         p12_orderCheckOut.checkoutCardCodePOM().click();
         p12_orderCheckOut.checkoutCardCodePOM().clear();
         p12_orderCheckOut.checkoutCardCodePOM().sendKeys(cardCode);
-        // Press CONTINUE //
         p12_orderCheckOut.checkoutPaymentSaveBtnPOM().click();
         System.out.println("Create Successful Order!");
     }
@@ -123,7 +102,6 @@ public class D12_stepDefinitionOrder {
     }
     @And("user checks order details")
     public void user_checks_order_details() {
-        // Click for order details //
         p12_orderCheckOut.checkoutOrderDetailsPOM().click();
         System.out.println("Title of page is: " + Hooks.driver.getTitle());
     }

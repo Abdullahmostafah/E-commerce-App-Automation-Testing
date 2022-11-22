@@ -23,6 +23,5 @@ public class D07_stepDefinitionColor {
     public void user_will_find_product_with_the_selected_color() {
         Hooks.sleep(15);
         Assert.assertTrue(p07_filterColor.colorCheckProduct().isDisplayed(), "Error Message: Selected Color Not Found!");
-        //System.out.println("Color Selected: Red Shoes");
     }
 }

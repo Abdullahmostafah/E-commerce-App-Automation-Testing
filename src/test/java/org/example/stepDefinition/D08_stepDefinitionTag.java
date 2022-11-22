@@ -16,15 +16,13 @@ public class D08_stepDefinitionTag {
         p08_selectTags.SelectedCoolTag().click();
         Hooks.sleep(8);
         String actualResult = p08_selectTags.SelectedCoolItemPage().getText();
-        //System.out.println(actualResult);
         String expectedResult = "Products tagged with 'cool'";
         Assert.assertEquals(actualResult, expectedResult, "Assertion False: ");
-        //System.out.println("Products tagged with 'cool'");
     }
     @And("user will find products")
     public void find_products()
     {
-        // Check products into Cool tag //
+
         List<WebElement> CoolPageCount = new ArrayList<>();
         CoolPageCount.add(p08_selectTags.GetCoolPageCount());
         List<WebElement> CoolAsser = new ArrayList<>();
@@ -51,7 +49,6 @@ public class D08_stepDefinitionTag {
         ShirtCount.add(p08_selectTags.GetShirtCount());
         List<WebElement> ShirtAsser = new ArrayList<>();
         ShirtAsser.add(p08_selectTags.DisplayShirtAsser());
-        // Check products into shirt tag using POM //
         Assert.assertTrue(ShirtCount.size() > 0); //3
         ArrayList<String> secondProductList = new ArrayList<>();
         for (int x = 0; x < ShirtCount.size() ; x++) {

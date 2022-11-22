@@ -60,16 +60,14 @@ public class D11_stepDefinitionCompare {
     @And("user clears a product from compareList")
     public void user_clears_a_product_from_compareList() {
         p11_compareList.compareProdClearPOM().click();
-
     }
     @And("user deletes all the choosedProducts")
     public void user_deletes_all_the_choosedProducts() {
         p11_compareList.deleteListPOM().click();
-        // Check deleted list //
         String actualResult = p11_compareList.compareDeleteListAsserPOM().getText();
         Hooks.sleep(3);
         String expectedResult = "You have no items to compare.";
         Assert.assertEquals(actualResult, expectedResult, "ERROR: Assertion False!");
-        //System.out.println("You have no items to compare.");
+
     }
 }

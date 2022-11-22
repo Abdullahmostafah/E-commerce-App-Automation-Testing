@@ -1,12 +1,12 @@
 @smoke
-Feature: Switch between currencies
+Feature: F05_Currency
 
 
   Background: user has account
     Given user had an actual account
     And open home page again
 
-  Scenario: Guest User could switch between currencies US-Euro
+  Scenario: SC5- Logged User could switch between currencies US-Euro
 
     When user chooses from currency dropdown list
 

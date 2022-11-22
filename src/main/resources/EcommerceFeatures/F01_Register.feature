@@ -1,7 +1,7 @@
 @smoke
 Feature: F01_Register
 
-  Scenario: Successfully, New User Could Register With Valid Data
+  Scenario: SC1- User could register with valid data
 
     Given user goes to home page
 

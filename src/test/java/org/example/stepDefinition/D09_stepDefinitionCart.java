@@ -22,7 +22,6 @@ public class D09_stepDefinitionCart {
             wishlistAssertion.assertEquals(p09_shoppingCart.DisplayingMessage().getText(), "The product has been added to your shopping cart");
             wishlistAssertion.assertEquals(p09_shoppingCart.DisplayingMessage().getCssValue("background-color"), "rgba(75, 176, 122, 1)");
             wishlistAssertion.assertAll();
-            //System.out.println("Add product to shopping cart successfully");
         }
     }
 }

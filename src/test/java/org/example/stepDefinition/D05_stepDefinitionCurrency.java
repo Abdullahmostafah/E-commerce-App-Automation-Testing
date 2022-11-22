@@ -25,7 +25,6 @@ public class D05_stepDefinitionCurrency {
         for (int i = 0; i < p05_switchCurrency.DisplayingChoosedProductPrice().size(); i++) {
             productAssert.assertEquals(p05_switchCurrency.DisplayingChoosedProductPrice().get(i).getText().substring(0, 1), expectedResult, "Error found different currency");
             productAssert.assertAll();
-            //System.out.println("Right: " + p05_switchCurrency.DisplayingChoosedProductPrice().get(i).getText());
         }
     }
 }

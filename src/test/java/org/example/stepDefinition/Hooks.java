@@ -9,8 +9,10 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pages.P01_Register;
 import org.example.pages.P10_Wishlist;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
@@ -18,13 +20,10 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class Hooks {
-    // your code inside the class will be like this
  public static WebDriver driver;
-    P01_Register p01_registrationPageElements = new P01_Register();
-    P10_Wishlist p10_wishlistPage = new P10_Wishlist();
     static public String userFirstName = "automation";
     static public String userLastName = "tester";
-    static public String userValidEmail = "test32@example.com";
+    static public String userValidEmail = "test35@example.com";
     static public String userValidPassword = "P@ssw0rd";
     static public SoftAssert verifyRegistration = new SoftAssert();
     static public boolean CheckRegistration = false;
@@ -39,7 +38,6 @@ public class Hooks {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.navigate().to("https://demo.nopcommerce.com/");
     }
-    // Common steps between features
     @Given("open home page again")
     public void open_home_page_again() {
         driver.get("https://demo.nopcommerce.com/");
@@ -52,9 +50,7 @@ public class Hooks {
     public void user_enters_email_address() throws InterruptedException {
         P01_Register.GettingUserEmailAddress().clear();
 
-        while (!(userValidEmail.contains("@")));  // check functionality email
-        //System.out.println("Email: " + userValidEmail);
-
+        while (!(userValidEmail.contains("@")));
         P01_Register.GettingUserEmailAddress().sendKeys(userValidEmail);
     }
     @When("user enters password")

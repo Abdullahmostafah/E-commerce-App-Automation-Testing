@@ -1,7 +1,7 @@
 @smoke
 Feature: F03_ResetPassword
 
-  Scenario: User could reset his password successfully
+  Scenario: SC3- User could reset his/her password successfully
 
     Given user had an actual account
     And user goes to home page

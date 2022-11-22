@@ -32,111 +32,84 @@ public class P12_Order {
     static By checkoutInvoicePrint = By.xpath("//a[@class=\"button-2 print-order-button\"]");
 
     public static WebElement checkoutTermsPOM(){
-        // Agree with the terms of service //
         return Hooks.driver.findElement(By.xpath("//div[@class=\"terms-of-service\"]/input"));
     }
     public static WebElement checkoutCardExpMonthPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutCardExpMonth);
     }
     public static WebElement checkoutCardExpYearPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutCardExpYear);
     }
     public static WebElement checkoutCardCodePOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutCardCode);
     }
     public static WebElement checkoutPaymentSaveBtnPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutPaymentSaveBtn);
     }
     public static WebElement checkoutOrderConfirmBtnPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutOrderConfirmBtn);
     }
     public static WebElement checkoutOrderDetailsPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutOrderDetails);
     }
     public static WebElement checkoutInvoiceSavePOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutInvoiceSave);
     }
     public static WebElement checkoutInvoicePrintPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutInvoicePrint);
     }
     public static WebElement checkoutFNamePOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutFirstName);
     }
     public static WebElement checkoutLNamePOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutLastName);
     }
     public static WebElement checkoutMailPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutEmail);
     }
     public static WebElement checkoutCountryPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutCountry);
     }
     public static WebElement checkoutCityPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutCity);
     }
     public static WebElement checkoutAddressPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutAddress);
     }
     public static WebElement checkoutPostCodePOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutPostCode);
     }
     public static WebElement checkoutPhoneNoPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutPhoneNo);
     }
     public static WebElement checkoutFaxNoPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutFaxNo);
     }
     public static WebElement checkoutBillAddSaveBtnPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutBillAddSaveBtn);
     }
     public static WebElement checkoutShipMethSelPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutShipMethSel);
     }
     public static WebElement checkoutBtnPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(By.xpath("//div[@class=\"checkout-buttons\"]/button"));
     }
     public static WebElement checkoutShipMethSaveBtnPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutShipMethSaveBtn);
     }
     public static WebElement checkoutPayMethSelPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutPayMethSel);
     }
     public static WebElement checkoutPayMethSaveBtnPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutPayMethSaveBtn);
     }
     public static WebElement checkoutCardTypePOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutCardType);
     }
     public static WebElement checkoutCardHolderNamePOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutCardHolderName);
     }
     public static WebElement checkoutCardNoPOM(){
-        // Press Checkout button //
         return Hooks.driver.findElement(checkoutCardNo);
     }
 }

@@ -3,6 +3,11 @@ package org.example.pages;
 import org.example.stepDefinition.Hooks;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class P02_Login {
         public static WebElement PressingLogInLink() {
@@ -17,4 +22,4 @@ public class P02_Login {
         public static WebElement DisplayingMyAccountLink() {
             return Hooks.driver.findElement(By.cssSelector("a[class=\"ico-account\"]"));
         }
-    }
+}

@@ -1,12 +1,12 @@
 @smoke
-Feature: user could select different tags
+Feature: F08_Tag
 
 
   Background: user has account
     Given user had an actual account
     And open home page again
 
-  Scenario: user could add products to wishlist
+  Scenario: SC8- Logged user could select different tags
     Given user scrolls down to products
 
     When user presses on add to wishlist

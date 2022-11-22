@@ -1,12 +1,11 @@
 @smoke
-Feature: Categories
-  Select Different Categories
+Feature: F06_Category
 
   Background: user has account
     Given user had an actual account
     And open home page again
 
-  Scenario: Guest user could select different Categories
+  Scenario: SC6- Logged user could select different Categories
 
     When user chooses category randomly
 

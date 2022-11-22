@@ -5,7 +5,7 @@ Feature: F04_Search
     Given user had an actual account
     And open home page again
 
-  Scenario: Guest User could search for any product using name
+  Scenario: SC4- Logged User could search for any product using name
     # Search Steps Using Name
     When user presses on search box
     And write "apple" in the search box
@@ -13,7 +13,7 @@ Feature: F04_Search
 
     Then user will find all related products
 
-  Scenario: Guest User could search for any product using SKU
+  Scenario: SC4- Logged User could search for any product using SKU
     # Search Steps Using SKU
     When user presses on search box
     And write "N_1020_LU" in the search box
