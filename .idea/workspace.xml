@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2770c2f2-856d-4dda-be24-20963fcc1630" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/E-COmmerce(Reviewer).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Requirements.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F13_HomeSlider.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F14_FollowUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P13_HomeSlider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P14_FollowUs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D13_stepDefinitionSlider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D14_stepDefinitionFollowUs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F01_Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F01_Register.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F02_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F03_ResetPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F03_ResetPassword.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F04_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F04_Search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F05_Currency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F05_Currency.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F06_Category.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F06_Category.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F07_Color.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F07_Color.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F08_Tag.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F08_Tag.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F09_Cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F09_Cart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F10_Wishlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F10_Wishlist.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F11_Compare.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F11_Compare.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F12_Order.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F12_Order.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P01_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P01_Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P08_Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P08_Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P12_Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P12_Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D05_stepDefinitionCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D05_stepDefinitionCurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D07_stepDefinitionColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D07_stepDefinitionColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D08_stepDefinitionTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D08_stepDefinitionTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D09_stepDefinitionCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D09_stepDefinitionCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D11_stepDefinitionCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D11_stepDefinitionCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D12_stepDefinitionOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/D12_stepDefinitionOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/Hooks.java" afterDir="false" />
-    </list>
+    <list default="true" id="2770c2f2-856d-4dda-be24-20963fcc1630" name="Changes" comment="Second Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +48,7 @@
       <recent name="C:\Users\abdul\IdeaProjects\E-Commerce\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Feature: F13_HomeSlider">
     <configuration name="Feature: F13_HomeSlider" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/EcommerceFeatures/F13_HomeSlider.feature" />
@@ -204,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668893204865</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Commit">
+      <created>1669132997256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669132997256</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +195,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/E_Commerce$ClassRunner.ic" NAME="ClassRunner Coverage Results" MODIFIED="1668879651686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
